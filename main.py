@@ -15,7 +15,7 @@ total = 0
 
 @client.event
 async def on_ready():
-    stream = discord.Streaming(name="best generator!!", url="https://twitch.tv/wrlddd")
+    stream = discord.Streaming(name="Hulu: {}".format(numba), url="https://twitch.tv/wrlddd")
     print('------')
     print(client.user.name + "#" + client.user.discriminator)
     print('------')
